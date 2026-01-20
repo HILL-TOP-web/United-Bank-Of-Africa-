@@ -1,0 +1,5 @@
+export const LIMITS_CONFIG = {
+  DAILY_PAYOUT_MAX: 50000000000,      // ₦50,000,000,000 per day
+  DAILY_CONVERSION_MAX: 50000000000,  //points → NGN per day
+  MAX_PAYOUTS_PER_DAY: 30
+};
