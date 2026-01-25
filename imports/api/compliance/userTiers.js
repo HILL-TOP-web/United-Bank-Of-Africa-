@@ -1,0 +1,5 @@
+export const USER_TIERS = {
+  UNVERIFIED: 'UNVERIFIED',
+  BASIC: 'BASIC',
+  FULL: 'FULL'
+};
