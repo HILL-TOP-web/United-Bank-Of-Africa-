@@ -1,0 +1,11 @@
+import { Mongo } from 'meteor/mongo';
+
+export const Idempotency = new Mongo.Collection('idempotency');
+
+/*
+{
+  key,
+  result,
+  createdAt
+}
+*/
