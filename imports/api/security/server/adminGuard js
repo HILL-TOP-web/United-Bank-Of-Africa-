@@ -1,0 +1,7 @@
+import { Meteor } from 'meteor/meteor';
+
+export function assertAdmin(token) {
+  if (token !== process.env.ADMIN_TOKEN) {
+    throw new Meteor.Error('unauthorized');
+  }
+}
